@@ -1,19 +1,19 @@
 //
-//  DetailViewController.m
-//  Baylor Notes
+//  BNDetailViewController.m
+//  BaylorNotes10
 //
-//  Created by Sean Zhang on 1/9/13.
-//  Copyright (c) 2013 Sean Zhang. All rights reserved.
+//  Created by Sean Zhang on 11/8/12.
+//  Copyright (c) 2012 Sean Zhang. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "BNDetailViewController.h"
+#import "BNDataController.h"
 
-@interface DetailViewController ()
+@interface BNDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
-- (void)configureView;
 @end
 
-@implementation DetailViewController
+@implementation BNDetailViewController
 
 #pragma mark - Managing the detail item
 
@@ -23,20 +23,10 @@
         _detailItem = newDetailItem;
         
         // Update the view.
-        [self configureView];
     }
-
+    
     if (self.masterPopoverController != nil) {
         [self.masterPopoverController dismissPopoverAnimated:YES];
-    }        
-}
-
-- (void)configureView
-{
-    // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
     }
 }
 
@@ -44,8 +34,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    self.navigationController.navigationBar.tintColor = [UIColor redColor];
+    {
+        self.BNWebView.backgroundColor = [UIColor whiteColor];
+        for (UIView* subView in [self.BNWebView subviews])
+        {
+            if ([subView isKindOfClass:[UIScrollView class]]) {
+                for (UIView* shadowView in [subView subviews])
+                {
+                    if ([shadowView isKindOfClass:[UIImageView class]]) {
+                        [shadowView setHidden:YES];
+                    }
+                }
+            }
+        }
+    }
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -53,11 +58,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
+    if (navigationType == UIWebViewNavigationTypeLinkClicked) {
+        ([[UIApplication sharedApplication] openURL:[request URL]]);
+        return NO;
+    }
+    return YES;
+}
+
+
 #pragma mark - Split view
 
 - (void)splitViewController:(UISplitViewController *)splitController willHideViewController:(UIViewController *)viewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)popoverController
 {
-    barButtonItem.title = NSLocalizedString(@"Master", @"Master");
+    barButtonItem.title = @"Articles";
     [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
     self.masterPopoverController = popoverController;
 }
@@ -69,4 +83,18 @@
     self.masterPopoverController = nil;
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+
 @end
+
+
+
+

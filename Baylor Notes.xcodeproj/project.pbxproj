@@ -11,23 +11,25 @@
 		B53C313F169D99EA00A8E41E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C313E169D99EA00A8E41E /* Foundation.framework */; };
 		B53C3141169D99EA00A8E41E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C3140169D99EA00A8E41E /* CoreGraphics.framework */; };
 		B53C3147169D99EA00A8E41E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53C3145169D99EA00A8E41E /* InfoPlist.strings */; };
-		B53C3149169D99EA00A8E41E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C3148169D99EA00A8E41E /* main.m */; };
-		B53C314D169D99EA00A8E41E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C314C169D99EA00A8E41E /* AppDelegate.m */; };
-		B53C314F169D99EA00A8E41E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B53C314E169D99EA00A8E41E /* Default.png */; };
-		B53C3151169D99EA00A8E41E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53C3150169D99EA00A8E41E /* Default@2x.png */; };
-		B53C3153169D99EA00A8E41E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53C3152169D99EA00A8E41E /* Default-568h@2x.png */; };
 		B53C3156169D99EA00A8E41E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53C3154169D99EA00A8E41E /* MainStoryboard.storyboard */; };
-		B53C3159169D99EA00A8E41E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C3158169D99EA00A8E41E /* MasterViewController.m */; };
-		B53C315C169D99EA00A8E41E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C315B169D99EA00A8E41E /* DetailViewController.m */; };
-		B53C3164169D99EB00A8E41E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C3163169D99EB00A8E41E /* SenTestingKit.framework */; };
-		B53C3165169D99EB00A8E41E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C313C169D99EA00A8E41E /* UIKit.framework */; };
-		B53C3166169D99EB00A8E41E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C313E169D99EA00A8E41E /* Foundation.framework */; };
-		B53C316E169D99EB00A8E41E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53C316C169D99EB00A8E41E /* InfoPlist.strings */; };
-		B53C3171169D99EB00A8E41E /* Baylor_NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C3170169D99EB00A8E41E /* Baylor_NotesTests.m */; };
+		B53C3204169E5DA200A8E41E /* BNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C31EF169E584800A8E41E /* BNAppDelegate.m */; };
+		B53C3206169E5DA200A8E41E /* BNDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C31F1169E584800A8E41E /* BNDataController.m */; };
+		B53C3208169E5DA200A8E41E /* BNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C31F3169E584800A8E41E /* BNDetailViewController.m */; };
+		B53C320A169E5DA200A8E41E /* BNMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C31F5169E584800A8E41E /* BNMasterViewController.m */; };
+		B53C320B169E5DA200A8E41E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C3148169D99EA00A8E41E /* main.m */; };
+		B594C6E716B8A9700039046C /* BNAuthorGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B594C6E616B8A9700039046C /* BNAuthorGetter.m */; };
+		B594C6F316B959D30039046C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B594C6F216B959D30039046C /* XPathQuery.m */; };
+		B594C6F716BA1EA90039046C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B594C6F616BA1EA90039046C /* libxml2.dylib */; };
+		B5F8E7E617813A6700C0B707 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F8E7E517813A6700C0B707 /* Media.xcassets */; };
+		B5F8E7ED178146DD00C0B707 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8E7EC178146DD00C0B707 /* XCTest.framework */; };
+		B5F8E7EE178146DD00C0B707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C313E169D99EA00A8E41E /* Foundation.framework */; };
+		B5F8E7EF178146DD00C0B707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C313C169D99EA00A8E41E /* UIKit.framework */; };
+		B5F8E7F5178146DD00C0B707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5F8E7F3178146DD00C0B707 /* InfoPlist.strings */; };
+		B5F8E7F7178146DD00C0B707 /* Baylor_Notes_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8E7F6178146DD00C0B707 /* Baylor_Notes_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B53C3167169D99EB00A8E41E /* PBXContainerItemProxy */ = {
+		B5F8E7F9178146DD00C0B707 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B53C312F169D99EA00A8E41E /* Project object */;
 			proxyType = 1;
@@ -45,22 +47,28 @@
 		B53C3146169D99EA00A8E41E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B53C3148169D99EA00A8E41E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B53C314A169D99EA00A8E41E /* Baylor Notes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baylor Notes-Prefix.pch"; sourceTree = "<group>"; };
-		B53C314B169D99EA00A8E41E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B53C314C169D99EA00A8E41E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B53C314E169D99EA00A8E41E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B53C3150169D99EA00A8E41E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B53C3152169D99EA00A8E41E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B53C3155169D99EA00A8E41E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B53C3157169D99EA00A8E41E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		B53C3158169D99EA00A8E41E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B53C315A169D99EA00A8E41E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B53C315B169D99EA00A8E41E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		B53C3162169D99EB00A8E41E /* Baylor NotesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baylor NotesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53C3163169D99EB00A8E41E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B53C316B169D99EB00A8E41E /* Baylor NotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baylor NotesTests-Info.plist"; sourceTree = "<group>"; };
-		B53C316D169D99EB00A8E41E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B53C316F169D99EB00A8E41E /* Baylor_NotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baylor_NotesTests.h; sourceTree = "<group>"; };
-		B53C3170169D99EB00A8E41E /* Baylor_NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baylor_NotesTests.m; sourceTree = "<group>"; };
+		B53C31EE169E584800A8E41E /* BNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAppDelegate.h; sourceTree = "<group>"; };
+		B53C31EF169E584800A8E41E /* BNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNAppDelegate.m; sourceTree = "<group>"; };
+		B53C31F0169E584800A8E41E /* BNDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDataController.h; sourceTree = "<group>"; };
+		B53C31F1169E584800A8E41E /* BNDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDataController.m; sourceTree = "<group>"; };
+		B53C31F2169E584800A8E41E /* BNDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDetailViewController.h; sourceTree = "<group>"; };
+		B53C31F3169E584800A8E41E /* BNDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDetailViewController.m; sourceTree = "<group>"; };
+		B53C31F4169E584800A8E41E /* BNMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNMasterViewController.h; sourceTree = "<group>"; };
+		B53C31F5169E584800A8E41E /* BNMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNMasterViewController.m; sourceTree = "<group>"; };
+		B594C6E516B8A9700039046C /* BNAuthorGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAuthorGetter.h; sourceTree = "<group>"; };
+		B594C6E616B8A9700039046C /* BNAuthorGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNAuthorGetter.m; sourceTree = "<group>"; };
+		B594C6F116B959D30039046C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = ../XPathQuery.h; sourceTree = "<group>"; };
+		B594C6F216B959D30039046C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = ../XPathQuery.m; sourceTree = "<group>"; };
+		B594C6F616BA1EA90039046C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B5F8E7E517813A6700C0B707 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		B5F8E7EB178146DD00C0B707 /* Baylor Notes Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baylor Notes Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F8E7EC178146DD00C0B707 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B5F8E7F2178146DD00C0B707 /* Baylor Notes Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baylor Notes Tests-Info.plist"; sourceTree = "<group>"; };
+		B5F8E7F4178146DD00C0B707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5F8E7F6178146DD00C0B707 /* Baylor_Notes_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baylor_Notes_Tests.m; sourceTree = "<group>"; };
+		B5F8E7F8178146DD00C0B707 /* Baylor Notes Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baylor Notes Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,19 +76,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B594C6F716BA1EA90039046C /* libxml2.dylib in Frameworks */,
 				B53C313D169D99EA00A8E41E /* UIKit.framework in Frameworks */,
 				B53C313F169D99EA00A8E41E /* Foundation.framework in Frameworks */,
 				B53C3141169D99EA00A8E41E /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53C315E169D99EB00A8E41E /* Frameworks */ = {
+		B5F8E7E8178146DD00C0B707 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C3164169D99EB00A8E41E /* SenTestingKit.framework in Frameworks */,
-				B53C3165169D99EB00A8E41E /* UIKit.framework in Frameworks */,
-				B53C3166169D99EB00A8E41E /* Foundation.framework in Frameworks */,
+				B5F8E7ED178146DD00C0B707 /* XCTest.framework in Frameworks */,
+				B5F8E7EF178146DD00C0B707 /* UIKit.framework in Frameworks */,
+				B5F8E7EE178146DD00C0B707 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B53C3142169D99EA00A8E41E /* Baylor Notes */,
-				B53C3169169D99EB00A8E41E /* Baylor NotesTests */,
+				B5F8E7F0178146DD00C0B707 /* Baylor Notes Tests */,
 				B53C313B169D99EA00A8E41E /* Frameworks */,
 				B53C3139169D99EA00A8E41E /* Products */,
 			);
@@ -101,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B53C3138169D99EA00A8E41E /* Baylor Notes.app */,
-				B53C3162169D99EB00A8E41E /* Baylor NotesTests.octest */,
+				B5F8E7EB178146DD00C0B707 /* Baylor Notes Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +122,7 @@
 				B53C313E169D99EA00A8E41E /* Foundation.framework */,
 				B53C3140169D99EA00A8E41E /* CoreGraphics.framework */,
 				B53C3163169D99EB00A8E41E /* SenTestingKit.framework */,
+				B5F8E7EC178146DD00C0B707 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,13 +130,17 @@
 		B53C3142169D99EA00A8E41E /* Baylor Notes */ = {
 			isa = PBXGroup;
 			children = (
-				B53C314B169D99EA00A8E41E /* AppDelegate.h */,
-				B53C314C169D99EA00A8E41E /* AppDelegate.m */,
+				B53C31EE169E584800A8E41E /* BNAppDelegate.h */,
+				B53C31EF169E584800A8E41E /* BNAppDelegate.m */,
 				B53C3154169D99EA00A8E41E /* MainStoryboard.storyboard */,
-				B53C3157169D99EA00A8E41E /* MasterViewController.h */,
-				B53C3158169D99EA00A8E41E /* MasterViewController.m */,
-				B53C315A169D99EA00A8E41E /* DetailViewController.h */,
-				B53C315B169D99EA00A8E41E /* DetailViewController.m */,
+				B53C31F0169E584800A8E41E /* BNDataController.h */,
+				B53C31F1169E584800A8E41E /* BNDataController.m */,
+				B594C6E516B8A9700039046C /* BNAuthorGetter.h */,
+				B594C6E616B8A9700039046C /* BNAuthorGetter.m */,
+				B53C31F4169E584800A8E41E /* BNMasterViewController.h */,
+				B53C31F5169E584800A8E41E /* BNMasterViewController.m */,
+				B53C31F2169E584800A8E41E /* BNDetailViewController.h */,
+				B53C31F3169E584800A8E41E /* BNDetailViewController.m */,
 				B53C3143169D99EA00A8E41E /* Supporting Files */,
 			);
 			path = "Baylor Notes";
@@ -135,32 +149,33 @@
 		B53C3143169D99EA00A8E41E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5F8E7E517813A6700C0B707 /* Media.xcassets */,
+				B594C6F616BA1EA90039046C /* libxml2.dylib */,
+				B594C6F116B959D30039046C /* XPathQuery.h */,
+				B594C6F216B959D30039046C /* XPathQuery.m */,
 				B53C3144169D99EA00A8E41E /* Baylor Notes-Info.plist */,
 				B53C3145169D99EA00A8E41E /* InfoPlist.strings */,
 				B53C3148169D99EA00A8E41E /* main.m */,
 				B53C314A169D99EA00A8E41E /* Baylor Notes-Prefix.pch */,
-				B53C314E169D99EA00A8E41E /* Default.png */,
-				B53C3150169D99EA00A8E41E /* Default@2x.png */,
-				B53C3152169D99EA00A8E41E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B53C3169169D99EB00A8E41E /* Baylor NotesTests */ = {
+		B5F8E7F0178146DD00C0B707 /* Baylor Notes Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B53C316F169D99EB00A8E41E /* Baylor_NotesTests.h */,
-				B53C3170169D99EB00A8E41E /* Baylor_NotesTests.m */,
-				B53C316A169D99EB00A8E41E /* Supporting Files */,
+				B5F8E7F6178146DD00C0B707 /* Baylor_Notes_Tests.m */,
+				B5F8E7F1178146DD00C0B707 /* Supporting Files */,
 			);
-			path = "Baylor NotesTests";
+			path = "Baylor Notes Tests";
 			sourceTree = "<group>";
 		};
-		B53C316A169D99EB00A8E41E /* Supporting Files */ = {
+		B5F8E7F1178146DD00C0B707 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B53C316B169D99EB00A8E41E /* Baylor NotesTests-Info.plist */,
-				B53C316C169D99EB00A8E41E /* InfoPlist.strings */,
+				B5F8E7F2178146DD00C0B707 /* Baylor Notes Tests-Info.plist */,
+				B5F8E7F3178146DD00C0B707 /* InfoPlist.strings */,
+				B5F8E7F8178146DD00C0B707 /* Baylor Notes Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,24 +200,23 @@
 			productReference = B53C3138169D99EA00A8E41E /* Baylor Notes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B53C3161169D99EB00A8E41E /* Baylor NotesTests */ = {
+		B5F8E7EA178146DD00C0B707 /* Baylor Notes Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B53C3177169D99EB00A8E41E /* Build configuration list for PBXNativeTarget "Baylor NotesTests" */;
+			buildConfigurationList = B5F8E7FB178146DD00C0B707 /* Build configuration list for PBXNativeTarget "Baylor Notes Tests" */;
 			buildPhases = (
-				B53C315D169D99EB00A8E41E /* Sources */,
-				B53C315E169D99EB00A8E41E /* Frameworks */,
-				B53C315F169D99EB00A8E41E /* Resources */,
-				B53C3160169D99EB00A8E41E /* ShellScript */,
+				B5F8E7E7178146DD00C0B707 /* Sources */,
+				B5F8E7E8178146DD00C0B707 /* Frameworks */,
+				B5F8E7E9178146DD00C0B707 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B53C3168169D99EB00A8E41E /* PBXTargetDependency */,
+				B5F8E7FA178146DD00C0B707 /* PBXTargetDependency */,
 			);
-			name = "Baylor NotesTests";
-			productName = "Baylor NotesTests";
-			productReference = B53C3162169D99EB00A8E41E /* Baylor NotesTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = "Baylor Notes Tests";
+			productName = "Baylor Notes Tests";
+			productReference = B5F8E7EB178146DD00C0B707 /* Baylor Notes Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,6 +226,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Sean Zhang";
+				TargetAttributes = {
+					B5F8E7EA178146DD00C0B707 = {
+						TestTargetID = B53C3137169D99EA00A8E41E;
+					};
+				};
 			};
 			buildConfigurationList = B53C3132169D99EA00A8E41E /* Build configuration list for PBXProject "Baylor Notes" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -226,7 +245,7 @@
 			projectRoot = "";
 			targets = (
 				B53C3137169D99EA00A8E41E /* Baylor Notes */,
-				B53C3161169D99EB00A8E41E /* Baylor NotesTests */,
+				B5F8E7EA178146DD00C0B707 /* Baylor Notes Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,66 +256,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				B53C3147169D99EA00A8E41E /* InfoPlist.strings in Resources */,
-				B53C314F169D99EA00A8E41E /* Default.png in Resources */,
-				B53C3151169D99EA00A8E41E /* Default@2x.png in Resources */,
-				B53C3153169D99EA00A8E41E /* Default-568h@2x.png in Resources */,
 				B53C3156169D99EA00A8E41E /* MainStoryboard.storyboard in Resources */,
+				B5F8E7E617813A6700C0B707 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53C315F169D99EB00A8E41E /* Resources */ = {
+		B5F8E7E9178146DD00C0B707 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C316E169D99EB00A8E41E /* InfoPlist.strings in Resources */,
+				B5F8E7F5178146DD00C0B707 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B53C3160169D99EB00A8E41E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B53C3134169D99EA00A8E41E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C3149169D99EA00A8E41E /* main.m in Sources */,
-				B53C314D169D99EA00A8E41E /* AppDelegate.m in Sources */,
-				B53C3159169D99EA00A8E41E /* MasterViewController.m in Sources */,
-				B53C315C169D99EA00A8E41E /* DetailViewController.m in Sources */,
+				B53C3204169E5DA200A8E41E /* BNAppDelegate.m in Sources */,
+				B53C3206169E5DA200A8E41E /* BNDataController.m in Sources */,
+				B53C3208169E5DA200A8E41E /* BNDetailViewController.m in Sources */,
+				B53C320A169E5DA200A8E41E /* BNMasterViewController.m in Sources */,
+				B53C320B169E5DA200A8E41E /* main.m in Sources */,
+				B594C6E716B8A9700039046C /* BNAuthorGetter.m in Sources */,
+				B594C6F316B959D30039046C /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53C315D169D99EB00A8E41E /* Sources */ = {
+		B5F8E7E7178146DD00C0B707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C3171169D99EB00A8E41E /* Baylor_NotesTests.m in Sources */,
+				B5F8E7F7178146DD00C0B707 /* Baylor_Notes_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B53C3168169D99EB00A8E41E /* PBXTargetDependency */ = {
+		B5F8E7FA178146DD00C0B707 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B53C3137169D99EA00A8E41E /* Baylor Notes */;
-			targetProxy = B53C3167169D99EB00A8E41E /* PBXContainerItemProxy */;
+			targetProxy = B5F8E7F9178146DD00C0B707 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -317,10 +321,10 @@
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
-		B53C316C169D99EB00A8E41E /* InfoPlist.strings */ = {
+		B5F8E7F3178146DD00C0B707 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B53C316D169D99EB00A8E41E /* en */,
+				B5F8E7F4178146DD00C0B707 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -350,7 +354,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -372,7 +376,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -383,10 +387,15 @@
 		B53C3175169D99EB00A8E41E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Baylor Notes/Baylor Notes-Prefix.pch";
+				HEADER_SEARCH_PATHS = $SDK_DIR/usr/include/libxml2;
 				INFOPLIST_FILE = "Baylor Notes/Baylor Notes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,45 +403,80 @@
 		B53C3176169D99EB00A8E41E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Baylor Notes/Baylor Notes-Prefix.pch";
+				HEADER_SEARCH_PATHS = $SDK_DIR/usr/include/libxml2;
 				INFOPLIST_FILE = "Baylor Notes/Baylor Notes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		B53C3178169D99EB00A8E41E /* Debug */ = {
+		B5F8E7FC178146DD00C0B707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Baylor Notes.app/Baylor Notes";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Baylor Notes/Baylor Notes-Prefix.pch";
-				INFOPLIST_FILE = "Baylor NotesTests/Baylor NotesTests-Info.plist";
+				GCC_PREFIX_HEADER = "Baylor Notes Tests/Baylor Notes Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Baylor Notes Tests/Baylor Notes Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		B53C3179169D99EB00A8E41E /* Release */ = {
+		B5F8E7FD178146DD00C0B707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Baylor Notes.app/Baylor Notes";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Baylor Notes/Baylor Notes-Prefix.pch";
-				INFOPLIST_FILE = "Baylor NotesTests/Baylor NotesTests-Info.plist";
+				GCC_PREFIX_HEADER = "Baylor Notes Tests/Baylor Notes Tests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Baylor Notes Tests/Baylor Notes Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -455,12 +499,13 @@
 				B53C3176169D99EB00A8E41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B53C3177169D99EB00A8E41E /* Build configuration list for PBXNativeTarget "Baylor NotesTests" */ = {
+		B5F8E7FB178146DD00C0B707 /* Build configuration list for PBXNativeTarget "Baylor Notes Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B53C3178169D99EB00A8E41E /* Debug */,
-				B53C3179169D99EB00A8E41E /* Release */,
+				B5F8E7FC178146DD00C0B707 /* Debug */,
+				B5F8E7FD178146DD00C0B707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
